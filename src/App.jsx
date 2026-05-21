@@ -1388,6 +1388,7 @@ ${card.effect}`;
       }}
     >
       <style>{`
+        html, body { background: #0e0905; margin: 0; padding: 0; }
         *, *::before, *::after { box-sizing: border-box; }
         input[type="range"] { accent-color: ${accent}; }
         input[type="range"] { height: 6px; }
