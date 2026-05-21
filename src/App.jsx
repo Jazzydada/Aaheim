@@ -1623,16 +1623,14 @@ ${card.effect}`;
               `radial-gradient(ellipse at 20% 100%, ${accent}07 0%, transparent 55%)`,
             ].join(", "),
             borderRadius: 22,
-            border: `2px solid ${accent}99`,
-            boxShadow: `0 0 0 5px #00000022, 0 20px 55px #000000aa, inset 0 1px 0 #ffffffbb`,
+            border: `1px solid ${accent}66`,
+            boxShadow: `0 0 0 4px #00000033, 0 20px 55px #000000aa`,
             maxWidth: "100%",
             margin: "0 auto 22px",
             overflow: "hidden",
             position: "relative",
           }}
         >
-          {/* Indre rammelinje */}
-          <div style={{ position: "absolute", inset: 10, border: `1px solid ${accent}44`, borderRadius: 16, pointerEvents: "none" }} />
           {/* Hjørneornamenter */}
           <div className="card-corner card-corner-tl">❧</div>
           <div className="card-corner card-corner-tr">❧</div>
